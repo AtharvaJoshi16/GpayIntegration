@@ -83,6 +83,7 @@ fun PaymentUI() {
                 Button(onClick = { paymentActivity(ctx,name.text,upiId.text,description.text,amount.text) }, modifier = Modifier.padding(10.dp)) {
                     Text(text = "PROCEED TO PAY")
                 }
+
             }
         }
     }
